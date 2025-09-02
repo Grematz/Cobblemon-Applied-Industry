@@ -1,0 +1,49 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "cobblemonappliedindustry:iron_base"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "cobblemon:poke_ball"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cobblemonappliedindustry:incomplete_ball"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "id": "cobblemonappliedindustry:incomplete_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cobblemonappliedindustry:incomplete_ball"
+        },
+        {
+          "item": "cobblemonappliedindustry:pokeball_lid"
+        }
+      ],
+      "results": [
+        {
+          "id": "cobblemonappliedindustry:incomplete_ball"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "cobblemonappliedindustry:incomplete_ball"
+  }
+}

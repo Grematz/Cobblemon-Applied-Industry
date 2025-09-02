@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " t ",
+    " c ",
+    " b "
+  ],
+  "key": {
+    "t": {
+      "item": "cobblemonappliedindustry:pokeball_lid"
+    },
+    "c": {
+      "item": "minecraft:redstone"
+    },
+    "b": {
+      "item": "cobblemonappliedindustry:iron_base"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "cobblemon:poke_ball"
+  }
+}

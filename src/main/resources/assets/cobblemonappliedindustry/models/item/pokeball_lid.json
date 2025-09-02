@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cobblemonappliedindustry:item/pokeball_lid"
+  }
+}
